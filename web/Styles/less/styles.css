@@ -141,6 +141,7 @@ form {
   justify-content: center;
   background-image: linear-gradient(to bottom right, #2199D0, #46C583);
   margin-top: 20px;
+  cursor: pointer;
 }
 .container {
   width: 50px;
@@ -213,6 +214,7 @@ form {
   position: relative;
   top: 20px;
   margin-right: 5px;
+  cursor: pointer;
 }
 .btn-filter {
   width: 100px;
@@ -228,6 +230,7 @@ form {
   font-style: normal;
   font-family: "Montserrat";
   color: white;
+  cursor: pointer;
 }
 .patient-hos-details {
   width: 90%;
@@ -300,6 +303,7 @@ hr {
 }
 .social-media-icon {
   width: 25px;
+  cursor: pointer;
 }
 .social-media {
   display: flex;
@@ -421,6 +425,7 @@ hr {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     margin-top: 20px;
     border-radius: 10px;
+    cursor: pointer;
   }
   .name-section {
     display: flex;
@@ -458,7 +463,7 @@ hr {
     width: 100%;
     height: 100px;
     margin-top: 20px;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
     backdrop-filter: blur(9.6px);
     -webkit-backdrop-filter: blur(9.6px);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -468,6 +473,7 @@ hr {
   }
   .bottom-nav div {
     align-self: center;
+    cursor: pointer;
   }
   .center-container {
     display: flex;
@@ -476,6 +482,7 @@ hr {
   }
   .logo {
     width: 100px;
+    cursor: pointer;
   }
   .login-form-container {
     width: 100%;
@@ -520,5 +527,8 @@ hr {
   }
   table {
     width: 500px;
+  }
+  .bottom-nav {
+    width: 50%;
   }
 }
