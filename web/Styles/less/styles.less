@@ -22,6 +22,10 @@
 }
 body{
     background: @background-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .shadoow{
@@ -304,6 +308,11 @@ hr{
     color: black;
     background: white;
 }
+.dr-img-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media (min-width:300px){
     .screen{
         display: flex;
@@ -447,6 +456,26 @@ hr{
         label{
             .semibold;
         }
+    .white-background{
+        display:none;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
+    }
+
+    @media (min-width:768px){
+        .details-container{
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: baseline;
+        }
+        table{
+            width: 500px;
+        }
+        
+    }
 }
