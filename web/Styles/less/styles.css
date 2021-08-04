@@ -120,6 +120,7 @@ label {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   margin: 20px 0px;
   margin-right: 10px;
+  margin-left: 6px;
   background: white;
 }
 form {
@@ -356,7 +357,7 @@ hr {
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 300px) {
+@media (min-width: 100px) {
   .screen {
     display: flex;
     flex-direction: column;
@@ -517,7 +518,7 @@ hr {
     justify-content: center;
   }
 }
-@media (min-width: 300px) and (min-width: 768px) {
+@media (min-width: 100px) and (min-width: 768px) {
   .details-container {
     width: 80%;
     display: flex;
