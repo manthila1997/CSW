@@ -357,6 +357,9 @@ hr {
   flex-direction: column;
   align-items: center;
 }
+.list {
+  margin-bottom: 100px;
+}
 @media (min-width: 100px) {
   .screen {
     display: flex;
@@ -454,6 +457,7 @@ hr {
     background-color: white;
     padding: 5px;
     margin-top: 30px;
+    width: 100%;
   }
   .bottom-nav {
     display: flex;
